@@ -3,36 +3,36 @@ using Xunit;
 
 namespace Tddbc.Test
 {
-    namespace FizzBuzz”—ñ‚Æ•ÏŠ·‹K‘¥‚ğˆµ‚¤FizzBuzzƒNƒ‰ƒX
+    namespace FizzBuzzæ•°åˆ—ã¨å¤‰æ›è¦å‰‡ã‚’æ‰±ã†FizzBuzzã‚¯ãƒ©ã‚¹
     {
-        namespace Convertƒƒ\ƒbƒh‚Í”‚ğ•¶š—ñ‚É‚É•ÏŠ·‚·‚é
+        namespace Convertãƒ¡ã‚½ãƒƒãƒ‰ã¯æ•°ã‚’æ–‡å­—åˆ—ã«ã«å¤‰æ›ã™ã‚‹
         {
-            public class _3‚Ì”{”‚Ì‚Í”‚Ì‘ã‚í‚è‚ÉFizz‚É•ÏŠ·‚·‚é : FizzBuzzTestBase
+            public class _3ã®å€æ•°ã®æ™‚ã¯æ•°ã®ä»£ã‚ã‚Šã«Fizzã«å¤‰æ›ã™ã‚‹ : FizzBuzzTestBase
             {
                 [Fact]
-                public void _3‚ğ“n‚·‚Æ•¶š—ñFizz‚ğ•Ô‚·()
+                public void _3ã‚’æ¸¡ã™ã¨æ–‡å­—åˆ—Fizzã‚’è¿”ã™()
                 {
-                    // ŒŸØ & Às
+                    // æ¤œè¨¼ & å®Ÿè¡Œ
                     Assert.Equal("Fizz", FizzBuzz.Convert(3));
                 }
             }
 
-            public class _5‚Ì”{”‚Ì‚Í”‚Ì‘ã‚í‚è‚ÉBuzz‚É•ÏŠ·‚·‚é : FizzBuzzTestBase
+            public class _5ã®å€æ•°ã®æ™‚ã¯æ•°ã®ä»£ã‚ã‚Šã«Buzzã«å¤‰æ›ã™ã‚‹ : FizzBuzzTestBase
             {
                 [Fact]
-                public void _5‚ğ“n‚·‚Æ•¶š—ñBuzz‚ğ•Ô‚·()
+                public void _5ã‚’æ¸¡ã™ã¨æ–‡å­—åˆ—Buzzã‚’è¿”ã™()
                 {
-                    // ŒŸØ & Às
+                    // æ¤œè¨¼ & å®Ÿè¡Œ
                     Assert.Equal("Buzz", FizzBuzz.Convert(5));
                 }
             }
 
-            public class ‚»‚Ì‘¼‚Ì”‚Ì‚Í‚»‚Ì‚Ü‚Ü•¶š—ñ‚É•ÏŠ·‚·‚é : FizzBuzzTestBase
+            public class ãã®ä»–ã®æ•°ã®æ™‚ã¯ãã®ã¾ã¾æ–‡å­—åˆ—ã«å¤‰æ›ã™ã‚‹ : FizzBuzzTestBase
             {
                 [Fact]
-                public void _1‚ğ“n‚·‚Æ•¶š—ñ1‚ğ•Ô‚·()
+                public void _1ã‚’æ¸¡ã™ã¨æ–‡å­—åˆ—1ã‚’è¿”ã™()
                 {
-                    // ŒŸØ & Às
+                    // æ¤œè¨¼ & å®Ÿè¡Œ
                     Assert.Equal("1", FizzBuzz.Convert(1));
                 }
             }
